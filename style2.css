@@ -9,7 +9,7 @@
 
 html, body {
     height: 100%;
-    background-color: rgb(214, 214, 214);
+    background-color: rgba(218, 218, 218, 0.7);
     background-attachment: fixed; 
     color: white;
 }
@@ -54,22 +54,20 @@ nav > ul > li > a:hover {
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    margin-top: 1px;
+    margin-top: 40px;
     width: 100%;
 }
 
-.content-box {
-    background: rgba(218, 218, 218, 0.7); /* Fondo semi-transparente */
-    backdrop-filter: blur(10px);
-    border: 2px solid rgb(153, 153, 153);
+.hola {
     padding: 20px;
     width: 80%;
     max-width: 800px;
     text-align: center;
+    background: rgba(218, 218, 218, 0.7);
+    backdrop-filter: blur(10px);
+    color: rgb(70, 70, 70);/* Color de texto más oscuro */
 }
-.content-box p, h1 {
-    color: rgb(70, 70, 70);
-}
+
 .command-box {
     position: relative;
     background: rgba(218, 218, 218, 0.7); /* Fondo semi-transparente */
@@ -82,26 +80,6 @@ nav > ul > li > a:hover {
     color: rgb(70, 70, 70);
 }
 
-
-.copy-button {
-    padding: 10px 15px;
-    background-color: rgba(218, 218, 218, 0.7);
-    color: rgb(70, 70, 70);
-    border: 2px solid rgb(153, 153, 153);
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 10px;
-    font-size: 16px;
-    margin-left: 3%;
-}
-
-.copy-button:hover {
-    background-color: rgb(78, 78, 78);
-    color: rgb(218, 218, 218);
-    border: rgb(78, 78, 78);
-    transition: 0.3s;
-}
-
 h1 {
     margin-bottom: 20px;
 }
@@ -110,6 +88,3 @@ p {
     text-align: center;
 }
 
-.holita{
-    margin-top: 2%;
-}
